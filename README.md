@@ -16,3 +16,15 @@ Step 2. Add the dependency
 	dependencies {
 	        compile 'com.github.changshuai7:DataPrivacy:1.0.0'
 	}
+	
+	
+Step 2. In your application init
+
+	public class App extends Application {
+	
+             @Override
+             public void onCreate() {
+                 super.onCreate();
+                 PrivacyUtils.getInstance().init(this);
+          }
+        }
