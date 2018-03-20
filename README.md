@@ -28,3 +28,16 @@ Step 3. In your application init
                  PrivacyUtils.getInstance().init(this);
           }
         }
+	
+
+Your can save the data：
+
+
+	 PrivacyUtils.getInstance().setData("abc", PrivacyUtils.offset_1);
+	 
+	 
+Your can get the data：
+
+	
+	String data = PrivacyUtils.getInstance().getData(PrivacyUtils.offset_1);
+	
