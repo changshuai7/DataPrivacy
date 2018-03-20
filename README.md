@@ -18,7 +18,7 @@ Step 2. Add the dependency
 	}
 	
 	
-Step 2. In your application init
+Step 3. In your application init
 
 	public class App extends Application {
 	
