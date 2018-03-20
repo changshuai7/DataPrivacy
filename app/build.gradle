@@ -22,5 +22,6 @@ android {
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile "com.android.support:appcompat-v7:$rootProject.ext.supportLibraryVersion"
-    compile project(':lib')
+//    compile project(':lib')
+    compile 'com.github.changshuai7:DataPrivacy:1.0.0'
 }
